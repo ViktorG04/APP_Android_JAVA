@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/estadoReservaPendientes"
+        android:title="Pendientes"
+        ></item>
+
+    <item
+        android:id="@+id/estadoReservaAceptadas"
+        android:title="Aceptadas"
+        ></item>
+
+    <item
+        android:id="@+id/estadoReservaRechazadas"
+        android:title="Rechazadas"
+        ></item>
+
+
+</menu>

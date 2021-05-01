@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.electiva3.proyecto_android_electiva3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_snauto"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_snauto_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name=".entities.MyServiceMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".flujoModelos.actualizar_modelo" />
+        <activity android:name=".flujoModelos.crear_modelo" />
+        <activity android:name=".flujoMarcas.crear_marca" />
+        <activity android:name=".flujoMarcas.actualizar_marca" />
+        <activity android:name=".flujoMarcas.activity_lista_marcas" />
+        <activity
+            android:name=".activity_principal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".actualizar_detalle_reserva"
+            android:parentActivityName=".activity_lista_reservas" />
+        <activity
+            android:name=".activity_search_cliente"
+            android:parentActivityName=".activity_search_cliente" />
+        <activity
+            android:name=".activity_agregar_reserva"
+            android:parentActivityName=".activity_agregar_reserva" />
+        <activity
+            android:name=".SeleccionarHorarioReserva"
+            android:parentActivityName=".SeleccionarHorarioReserva" />
+        <activity
+            android:name=".activity_lista_reservas"
+            android:parentActivityName=".activity_principal" />
+        <activity
+            android:name=".activity_agregar_servicio_orden"
+            android:parentActivityName=".detalle_orden" />
+        <activity
+            android:name=".detalle_orden"
+            android:parentActivityName=".activity_ordenes" /> <!-- flujo planes -->
+        <activity
+            android:name=".flujoPlan.activity_lista_planes"
+            android:parentActivityName=".activity_principal" />
+        <activity android:name=".flujoPlan.activity_actualizar_plan" /> <!-- flujo servicios -->
+        <activity
+            android:name=".flujoServicio.activity_lista_servicios"
+            android:parentActivityName=".activity_principal" /> <!-- flujo contrato -->
+        <activity
+            android:name=".flujoContrato.activity_lista_contratos"
+            android:parentActivityName=".activity_principal" />
+        <activity android:name=".flujoContrato.activity_new_contrato" />
+        <activity android:name=".flujoContrato.activity_actualizar_contrato" />
+        <activity android:name=".flujoContrato.activity_mostrar_contrato" /> <!-- flujo vehiculos -->
+        <activity
+            android:name=".flujoVehiculo.activity_lista_vehiculos"
+            android:parentActivityName=".activity_principal" />
+        <activity android:name=".flujoVehiculo.activity_actualizar_vehiculo" />
+        <activity android:name=".flujoVehiculo.activity_new_vehiculo" />
+        <activity android:name=".flujoVehiculo.activity_mostrar_vehiculo" /> <!-- flujo usuarios -->
+        <activity
+            android:name=".flujoUsuario.activity_lista_usuarios"
+            android:parentActivityName=".activity_principal" />
+        <activity android:name=".flujoUsuario.activity_actualizar_usuario" />
+        <activity android:name=".flujoUsuario.activity_new_usuario" /> <!-- menu admin -->
+        <activity
+            android:name=".activity_ordenes"
+            android:parentActivityName=".activity_principal" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

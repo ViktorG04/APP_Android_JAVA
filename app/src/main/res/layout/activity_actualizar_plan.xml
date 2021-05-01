@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".flujoPlan.activity_actualizar_plan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteY="107dp">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginRight="14dp"
+                    android:drawableLeft="@drawable/ic_check"
+                    android:text=" Tipo de plan"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spnTipoPlan"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="299dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginRight="40dp"
+                    android:drawableLeft="@drawable/ic_check"
+                    android:text=" Duración del plan"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spnDuracion"
+                    android:layout_width="299dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvCosto"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/ic_money"
+                    android:text=" Costo del plan"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvEstado"
+                    android:layout_width="301dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginRight="14dp"
+                    android:drawableLeft="@drawable/ic_check"
+                    android:text=" Estado"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textSize="18sp"
+                    android:visibility="visible"
+                    tools:visibility="visible" />
+
+                <Spinner
+                    android:id="@+id/spnEstado"
+                    android:layout_width="301dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:visibility="visible"
+                    tools:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="298dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Servicios"
+                    android:textAlignment="center"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:layout_marginTop="14dp" />
+
+                <ListView
+                    android:id="@+id/lvServicios"
+                    android:layout_width="350dp"
+                    android:layout_height="148dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="14dp">
+
+                </ListView>
+
+                <Button
+                    android:id="@+id/btnCrear"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/ic_btn_launcher"
+                    android:text="Actualizar"
+                    android:textColor="@color/design_default_color_background" />
+
+                <Button
+                    android:id="@+id/btnCancelar"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ic_btn_gray"
+                    android:text="Cancelar"
+                    android:textColor="@color/design_default_color_background"
+                    android:visibility="visible"
+                    tools:visibility="visible" />
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

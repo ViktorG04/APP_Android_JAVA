@@ -1,0 +1,2 @@
+rootProject.name='proyecto_android_electiva3'
+include ':app'

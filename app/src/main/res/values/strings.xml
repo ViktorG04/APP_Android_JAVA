@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Servicio Automotriz SV
+
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_cliente">Cliente</string>
+    <string name="label_orden">Orden</string>
+    <string name="label_vehiculo">Vehiculo</string>
+    <string name="label_placa">Placa</string>
+    <string name="label_modelo">Modelo</string>
+    <string name="label_color">Color</string>
+    <string name="label_anio">Año</string>
+    <string name="label_correo">Correo</string>
+    <string name="label_plan">Plan</string>
+    <string name="label_vencimiento">Vencimiento</string>
+    <string name="label_activacion">Activación</string>
+    <string name="label_busqueda_servicios">Buscar articulo o servicio</string>
+    <string name="label_contrato">Contrato</string>
+    <string name="label_estado">Estado</string>
+    <string name="label_actualizar">Actualizar</string>
+    <string name="label_supervisor">Supervisor</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

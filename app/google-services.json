@@ -1,0 +1,48 @@
+{
+    "project_info": {
+      "project_number": "639810025672",
+      "firebase_url": "https://automotriz-7b40e.firebaseio.com",
+      "project_id": "automotriz-7b40e",
+      "storage_bucket": "automotriz-7b40e.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:639810025672:android:d5c387614636fd9295cdfd",
+          "android_client_info": {
+            "package_name": "com.electiva3.proyecto_android_electiva3"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "639810025672-rtp4lvfv8vh1s0mcf70odla606khc74f.apps.googleusercontent.com",
+            "client_type": 1,
+            "android_info": {
+              "package_name": "com.electiva3.proyecto_android_electiva3",
+              "certificate_hash": "7d74019b088320f6574fd123085416b6c79062fd"
+            }
+          },
+          {
+            "client_id": "639810025672-mg94mad41tlmuos1rpuobqjlrgsfu80q.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyCRDgCdLvmdxyk7YFKc4dMMaXBak-LMZU0"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "639810025672-mg94mad41tlmuos1rpuobqjlrgsfu80q.apps.googleusercontent.com",
+                "client_type": 3
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }

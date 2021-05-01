@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tvTituloServicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Nombre del servicio"
+            android:textSize="22sp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        >
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/library_roundedimageview_repositoryLink"
+            android:lines="4"
+            android:layout_weight="1"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvCosto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="$25"
+            android:textColor="#64f516"
+            android:textFontWeight="700"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="center|center"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        >
+
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar a la orden"
+            android:layout_marginBottom="10dp"
+            >
+        </Button>
+
+
+
+        <Button
+            android:id="@+id/btnAgregarNotificar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar a orden y notificar "
+            >
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
